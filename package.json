@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://liza-khube.github.io/KPI_Frontend_Fundamentals_Lab7",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
