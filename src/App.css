@@ -1,0 +1,104 @@
+ul,
+ol,
+li {
+  width: fit-content;
+}
+
+#hobby-sport,
+#hobby-drawing {
+  cursor: pointer;
+}
+
+.purpleTextOrangeBg {
+  color: #33079a;
+  background-color: #ff9442;
+}
+
+.orangeTextPurpleBg {
+  color: #ff9442;
+  background-color: #33079a;
+}
+
+.redTextBlueBg {
+  color: #590202;
+  background-color: #b8f1ff;
+}
+
+.blueTextRedBg {
+  color: #b8f1ff;
+  background-color: #590202;
+}
+
+#buttons-container {
+  margin-bottom: 200px;
+}
+
+button {
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  transition: all 0.8s;
+}
+
+.add-img:hover {
+  background-color: #a7c957;
+  transition: all 0.4s;
+}
+
+.add-img {
+  background-color: #a7c95726;
+}
+
+.delete-img:hover {
+  background-color: #e5383b;
+  transition: all 0.4s;
+}
+
+.delete-img {
+  background-color: #e5383b2a;
+}
+
+.resize-img:hover {
+  background-color: #f7b267;
+  transition: all 0.4s;
+}
+
+.resize-img {
+  background-color: #f7b2672a;
+}
+
+.task-2 h1 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.goods-card {
+  background-color: #ffffff;
+  box-shadow: 3px 3px 8px #392c2697;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.goods-card p {
+  text-align: center;
+}
+
+.goods-card img {
+  max-width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.goods-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
